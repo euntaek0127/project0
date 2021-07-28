@@ -1,0 +1,32 @@
+#a {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-indent: 20px;
+    width: 500px;
+    height: 2px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-51%,-50%);
+    padding: 1em;
+    border: 3px;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: grey;
+    outline: none;
+}
+ 
+.b {
+    width: 150px;
+    height: 30px;
+    position: relative;
+    float: right;
+    margin-left: 5px;
+}
+
+#google {
+    transform: translate(550px,150px);
+    width: 300px;
+    height: 100px;
+}
