@@ -1,5 +1,13 @@
 #google {
-    width: 200px;
-    height: 50px;
-    transform: translate(left, 0);
+    width: 250px;
+    height: 75px;
+    transform: translate(left, top);
+    position: absolute;
+}
+
+.bob {
+    width: 300px;
+    height: 100px;
+    margin: auto auto;
+    display: flex;
 }
