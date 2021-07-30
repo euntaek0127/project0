@@ -1,40 +1,80 @@
 #google {
-    width: 150px;
-    height: 50px;
-    float: left;
-    padding: 10px;
+    line-height: normal;
+    position: relative;
+    padding-left: 16px;
+    width: 90px;
+    height: 30px;
 }
 
-.bob {
+.inputs {
     width: 300px;
     height: 20px;
     margin: 25px;
     outline: none;
-    
-}
-h1 {
-    background-color: transparent;
-    font-family: sans-serif;
-    
+    outline:blue;
+    align-content: inherit;
 }
 
 #advancedsearch {
-    top: 50px;
-
+    position: fixed;
+    left: 20px;
+    transform: translateY(100px);
+    font-size: 30px;
+    color: red;
+    font-family: sans-serif;
 }
 
-#loop {
+#group {
     padding-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    top: 100px;
+    left: 20px;
+    position: fixed;
+    border-top: 100px;
+    display: flow-root;
+    transform: translate(20px,60px);
 }
 
-.c {
-    font-family: sans-serif;
-    text-indent: 30px;
-}
-
-hr {
-    width: "100%";
+#line {
     line-height: 1px;
     color: grey;
+    transform:translateY(140px);
+}
+
+.inputs {
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    column-gap: 5px;
+}
+
+.inputs:focus {
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    border: 1px solid #4d90fe;
+    outline: none
+}
+
+#googlesearch {
+    float: right;
+    margin-left: 5px;
+}
+
+.button {
+    position: relative;
+    width: 150px;
+    height: 30px;
+}
+
+#submit {
+    background-color: #6fa6ff;
+    transform: translate(600px, 450px);
+    border-radius: 5px;
+    border-width: 0.5px;
 }
