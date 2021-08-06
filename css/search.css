@@ -33,6 +33,7 @@
     flex-wrap: wrap;
     margin: 5px;
     display: inline;
+    flex-flow: row wrap;
 }
 
 #googlesearch:hover {
