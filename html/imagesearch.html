@@ -4,17 +4,27 @@
     <title>
         Google Image Search
     </title>
-    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="../css/search.css">
 </head>
-<body>
-    <form action="http://www.google.com/images?q">
-        <input id="a" type="text" placeholder="Google Image Search" name="q">
-    </form>
-    <button class="b" onclick="window.open('search.html','_blank')">
-        Google Search
-    </button>
-    <div>
-        <image id="google"src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png"></image>
+<body> 
+    <div id="header">
+        <div class="buttoncontainer"> 
+            <button class="button" onclick="window.location.href='imagesearch.html'">
+                Back to Google Search
+            </button>
+        </div>
+        <div class="clr"></div>
     </div>
+    
+    <div class="googleimagecontainer"></div>
+        <image id="googleimage" src="../images/google.png" alt="google logo"></image>
+    </div>
+
+    <div class="searchcontainer">
+        <form action="https://google.com/images?q">
+            <input id="googlesearch" type="text" name="q">
+        </form>
+    </div>  
+
 </body>
 </html>
