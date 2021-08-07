@@ -1,0 +1,50 @@
+.clr {
+    clear: both;
+}
+
+#search-box {
+    border: 1px black solid;
+    width: 200px;
+    height: 50px;
+}
+
+.link-container {
+    float:right;
+    margin:10px;
+    font: 15px black arial, sans-serif;
+}
+
+.link-container a {
+    text-decoration: none;
+    color: black;
+    margin:10px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.mainbody #top-sec, #bottom-sec{
+    justify-content: center;
+    display: flex;
+}
+
+.upperbody {
+    margin-top: 100px;
+}
+
+#bottom-sec form{
+    position: absolute;
+    border: 1px black solid;
+    width: 500px;
+    height: 45px;
+    place-items: center;
+    display: grid;
+}
+
+.search-input {
+    position:flex;
+    height: 35px;
+}
+
+
