@@ -59,11 +59,30 @@
     text-indent: 5px;
 }
 
-#bottom-sec form:hover {
+.imagesearch-container {
+    height: 44px !important;
+    width: 534px !important;
+}
+
+.imagesearch-input {
+    height: 34px;
+    width: 450px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-indent: 5px;
+}
+
+.search-input-container:hover {
     box-shadow: 0px 0px 10px -4px #000000;
     width: 655px;
 }
 
+#googleimagesearch #bottom-sec form:hover {
+    box-shadow: 0px 0px 10px -4px #000000;
+    width: 655px;
+}
 
 .btn-container {
     display: flex;
@@ -78,5 +97,27 @@
     font: 15px 'open sans', sans-serif;
 }
 
+#googleimages-logo {
+    background: url(../images/google.png) no-repeat;
+    background-size: 272px 92px;
+    height: 92px;
+    width: 272px;
+}
 
+#top-sec #googleimages-logo {
+    display: flex;
+    justify-content: center;
+}
 
+.upperbody label {
+    display: block;
+    margin-top: 70px;
+    float: right;
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    margin-left: 215px;
+}
+
+#googleimagesearch .upperbody{
+    margin-top: 175px;
+}
