@@ -1,30 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-<head> 
-    <title>
-        Google Image Search
-    </title>
-    <link rel="stylesheet" href="../css/search.css">
-</head>
-<body> 
-    <div id="header">
-        <div class="buttoncontainer"> 
-            <button class="button" onclick="window.location.href='search.html'">
-                Back to Google Search
-            </button>
-        </div>
+<html lang="en" id="googleimagesearch">
+    <head>
+        <title> Google Search</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header class="link-container">
+            <a href="search1.html">Back to Google</a>
+        </header>
         <div class="clr"></div>
-    </div>
-    
-    <div class="googleimagecontainer"></div>
-        <image id="googleimage" src="../images/google.png" alt="google logo"></image>
-    </div>
-
-    <div class="searchcontainer">
-        <form action="https://google.com/images?q">
-            <input id="googlesearch" type="text" name="q">
-        </form>
-    </div>  
-
-</body>
+        <div class="mainbody">
+            <div class="upperbody">
+                <div id="top-sec">
+                    <div id="googleimages-logo" title="Google Images">
+                        <div class="label-container">
+                            <label>Images</label>
+                        </div>
+                    </div>
+                </div>
+                <div id="bottom-sec">
+                    <form class="imagesearch-container" action="https://google.com/images?">
+                        <input class="imagesearch-input" autocomplete="off" type="text" name="q">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
